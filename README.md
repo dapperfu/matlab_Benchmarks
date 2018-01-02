@@ -3,15 +3,6 @@ Real world use case benchmarks for a very specific niche of industry.
 
 # Results
 
-| Machine             	| CPU      	| CPU 	| RAM  	| UserBenchmark 	| CPU-Z         	| CPU-Z        	| CPU Benchmark                                                                            	|  CPU Benchmark                                                                            	| Cinebench R15 	| Cinebench R15 	|
-|---------------------	|----------	|-----	|------	|---------------	|---------------	|--------------	|------------------------------------------------------------------------------------------	|-------------------------------------------------------------------------------------------	|---------------	|---------------	|
-|                     	|          	| GHz 	| (GB) 	|               	| Single Thread 	| Multi Thread 	| Single Thread*                                                                           	| CPU Mark*                                                                                 	| CPU           	| Single Core   	|
-| ASrock Z87 Extreme6 	| 4770k OC 	| 4.4 	| 16   	|               	| 458.8         	| 2363.7       	|                                                                                          	|                                                                                           	| 835           	| 177           	|
-| ASrock Z87 Extreme6 	| 4770k    	| 3.5 	| 16   	|               	|               	|              	| [2253](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4770K+%40+3.50GHz&id=1919) 	| [10104](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4770K+%40+3.50GHz&id=1919) 	|               	|               	|
-| HP ZBook G3         	|          	|     	|      	|               	|               	|              	|                                                                                          	|                                                                                           	|               	|               	|
-| HP Z840             	|          	|     	|      	|               	|               	|              	|                                                                                          	|                                                                                           	|               	|               	|
-|                     	|          	|     	|      	|               	|               	|              	|                                                                                          	|                                                                                           	|               	|               	|
-|                     	|          	|     	|      	|               	|               	|              	|                                                                                          	|                                                                                           	|               	|               	|
 
 ## Motivation
 
