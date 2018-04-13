@@ -24,7 +24,7 @@ NN = 10;
 N = 1e4;
 
 % Results file
-result_file = fullfile(getenv('WORKSPACE'), sprintf('%s.%s', mfilename, 'csv'));
+result_file = fullfile(getenv('RESULTS_DIR'), sprintf('%s.%s', mfilename, 'csv'));
 fid = fopen(result_file, 'w');
 fprintf(fid, '%s, N=%.2f\n', simulink_parameter, N);
 for n = 1:NN

@@ -9,7 +9,7 @@ stream = RandStream('mt19937ar');
 reset(stream,0);
 n=1e4;
 % Open the results file.
-result_file = fullfile(getenv('WORKSPACE'), sprintf('%s.%s', mfilename, 'csv'));
+result_file = fullfile(getenv('RESULTS_DIR'), sprintf('%s.%s', mfilename, 'csv'));
 fid = fopen(result_file, 'w');
 for i = 1:N
     A = randn(stream,n,n);

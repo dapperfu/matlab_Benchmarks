@@ -15,7 +15,7 @@ end
 
 %% Setup
 % Results file
-result_file = fullfile(getenv('WORKSPACE'), sprintf('%s.%s', mfilename, 'csv'));
+result_file = fullfile(getenv('RESULTS_DIR'), sprintf('%s.%s', mfilename, 'csv'));
 fid = fopen(result_file, 'w');
 
 % close all models.
