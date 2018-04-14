@@ -1,6 +1,5 @@
 function machine_info()
 
-
 wmic_info.bios={'Manufacturer'};
 wmic_info.cpu={'Name', 'NumberOfEnabledCore', 'NumberOfLogicalProcessors', 'ProcessorId', 'MaxClockSpeed'};
 wmic_info.computersystem={'Manufacturer', 'Model'};

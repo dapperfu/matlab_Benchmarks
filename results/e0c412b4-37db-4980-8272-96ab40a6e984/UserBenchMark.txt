@@ -1,0 +1,108 @@
+INFO: Current software signature: [3a59cc774253802f5096b53dc3842ede]
+INFO: Checking for updates on UserBenchmark.com
+INFO: Version check passed
+INFO: Benchmark engine running
+INFO: Checking OS support
+INFO: Checking CPU power status
+INFO: Starting CPU tests
+INFO: Launching CPU benchmark suite
+INFO: Running 1 core CPU benchmark ...
+INFO: 1Core Int total throughput: 147.1
+INFO: 1Core Float total throughput: 160.6
+INFO: 1Core Mixed total throughput: 151.6
+INFO: Running 2 core CPU benchmark ...
+INFO: 2Core Int total throughput: 294.7
+INFO: 2Core Float total throughput: 318
+INFO: 2Core Mixed total throughput: 302.1
+INFO: Running 4 core CPU benchmark ...
+INFO: 4Core Int total throughput: 592.3
+INFO: 4Core Float total throughput: 646.7
+INFO: 4Core Mixed total throughput: 621.5
+INFO: Running 8 core CPU benchmark ...
+INFO: 8Core Int total throughput: 886.7
+INFO: 8Core Float total throughput: 951.8
+INFO: 8Core Mixed total throughput: 912.9
+INFO: Running 64 core CPU benchmark ...
+INFO: 64Core Int total throughput: 875.5
+INFO: 64Core Float total throughput: 967.7
+INFO: 64Core Mixed total throughput: 905.9
+INFO: Exiting CPU benchmark suite
+INFO: Completed CPU benchmarks
+INFO: Starting RAM tests
+INFO: Launching RAM benchmark suite
+INFO: Checking RAM configuration
+WARN: Unable to process RAM module 0h
+INFO: Running 1 core RAM benchmark ...
+INFO: 1Core Read total throughput: 22.1
+INFO: 1Core Write total throughput: 42.5
+INFO: 1Core Mixed total throughput: 32
+INFO: Running 2 core RAM benchmark ...
+INFO: 2Core Read total throughput: 30.9
+INFO: 2Core Write total throughput: 42.2
+INFO: 2Core Mixed total throughput: 36.4
+INFO: Running 16 core RAM benchmark ...
+INFO: 16Core Read total throughput: 33.6
+INFO: 16Core Write total throughput: 38.7
+INFO: 16Core Mixed total throughput: 34
+INFO: Running system latency tests ...
+INFO: 1KB memory latency: 0.91 ns
+INFO: 2KB memory latency: 0.88 ns
+INFO: 4KB memory latency: 0.96 ns
+INFO: 8KB memory latency: 0.94 ns
+INFO: 16KB memory latency: 0.9 ns
+INFO: 32KB memory latency: 0.88 ns
+INFO: 64KB memory latency: 1.66 ns
+INFO: 128KB memory latency: 2.04 ns
+INFO: 256KB memory latency: 2.4 ns
+INFO: 512KB memory latency: 6.45 ns
+INFO: 1MB memory latency: 8.38 ns
+INFO: 2MB memory latency: 9.37 ns
+INFO: 4MB memory latency: 13.73 ns
+INFO: 8MB memory latency: 42.03 ns
+INFO: 16MB memory latency: 55.1 ns
+INFO: 32MB memory latency: 57.62 ns
+INFO: 64MB memory latency: 59.59 ns
+INFO: 128MB memory latency: 63.64 ns
+INFO: 256MB memory latency: 65.07 ns
+INFO: Exiting RAM benchmark suite
+INFO: Completed RAM benchmarks
+INFO: Gathering drive info
+INFO: Starting drive benchmark on C:\\
+INFO: Running sequentialRead test ...
+INFO: Running sequentialWrite test ...
+INFO: Running sequentialMixed test ...
+INFO: Running 4kRead test ...
+INFO: Running 4kWrite test ...
+INFO: Fast 4K write detected
+INFO: Running 4kMixed test ...
+INFO: Running 4k64thrRead test ...
+INFO: Running 4k64thrWrite test ...
+INFO: Running 4k64thrMixed test ...
+INFO: Completed drive benchmark on C:\\
+INFO: Checking GPU configuration
+INFO: Found 1 graphics card(s) and 1 active display(s)
+INFO: Starting GPU Benchmarks
+INFO: Launching NGPU detection
+INFO: NGPU Name: GeForce GTX 960
+INFO: NGPU Driver: 388.13
+INFO: NGPU Bios: 84.06.14.00.ff
+INFO: NGPU Total RAM MB: 4096
+INFO: NGPU Max C MHz: 1443
+INFO: NGPU Max M MHz: 1752
+INFO: Launching AGPU detection
+INFO: Completed GPUStats successfully
+INFO: Bench NVIDIA GeForce GTX 960 @(HDMI) on display(1) = main
+INFO: GPU score on Plane = 140.5 FPS
+INFO: GPU score on Cube = 116.5 FPS
+INFO: GPU score on Stones = 127.1 FPS
+INFO: GPU score on Swarm = 82.2 FPS
+INFO: GPU score on Galaxy = 122.3 FPS
+INFO: GPU score on Sphere = 81.7 FPS
+INFO: Completed GPU benchmarks
+INFO: Completed all benchmarks in 83 s
+INFO: Shutting down benchmark engine
+INFO: Results sent sucessfully
+INFO: Your report is available online at:
+INFO: http://www.userbenchmark.com/UserRun/8296440
+INFO: Opening report in default browser
+Completed
