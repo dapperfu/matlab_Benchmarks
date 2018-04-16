@@ -1,0 +1,92 @@
+INFO: Current software signature: [3a59cc774253802f5096b53dc3842ede]
+INFO: Checking for updates on UserBenchmark.com
+INFO: Version check passed
+INFO: Benchmark engine running
+INFO: Checking OS support
+INFO: Checking CPU power status
+INFO: Starting CPU tests
+INFO: Launching CPU benchmark suite
+INFO: Running 1 core CPU benchmark ...
+INFO: 1Core Int total throughput: 150.6
+INFO: 1Core Float total throughput: 160
+INFO: 1Core Mixed total throughput: 154.8
+INFO: Running 2 core CPU benchmark ...
+INFO: 2Core Int total throughput: 295.6
+INFO: 2Core Float total throughput: 321.7
+INFO: 2Core Mixed total throughput: 303.7
+INFO: Running 4 core CPU benchmark ...
+INFO: 4Core Int total throughput: 439.7
+INFO: 4Core Float total throughput: 483.3
+INFO: 4Core Mixed total throughput: 449.8
+INFO: Running 8 core CPU benchmark ...
+INFO: 8Core Int total throughput: 439.5
+INFO: 8Core Float total throughput: 477.5
+INFO: 8Core Mixed total throughput: 452
+INFO: Running 64 core CPU benchmark ...
+INFO: 64Core Int total throughput: 437.8
+INFO: 64Core Float total throughput: 483.1
+INFO: 64Core Mixed total throughput: 454.8
+INFO: Exiting CPU benchmark suite
+INFO: Completed CPU benchmarks
+INFO: Starting RAM tests
+INFO: Launching RAM benchmark suite
+INFO: Checking RAM configuration
+INFO: Running 1 core RAM benchmark ...
+INFO: 1Core Read total throughput: 21
+INFO: 1Core Write total throughput: 42.5
+INFO: 1Core Mixed total throughput: 29.8
+INFO: Running 2 core RAM benchmark ...
+INFO: 2Core Read total throughput: 29.7
+INFO: 2Core Write total throughput: 41.9
+INFO: 2Core Mixed total throughput: 35.9
+INFO: Running 16 core RAM benchmark ...
+INFO: 16Core Read total throughput: 34.8
+INFO: 16Core Write total throughput: 40.9
+INFO: 16Core Mixed total throughput: 36.5
+INFO: Running system latency tests ...
+INFO: 1KB memory latency: 1.02 ns
+INFO: 2KB memory latency: 0.85 ns
+INFO: 4KB memory latency: 0.86 ns
+INFO: 8KB memory latency: 0.85 ns
+INFO: 16KB memory latency: 0.85 ns
+INFO: 32KB memory latency: 0.88 ns
+INFO: 64KB memory latency: 1.62 ns
+INFO: 128KB memory latency: 2.05 ns
+INFO: 256KB memory latency: 3.58 ns
+INFO: 512KB memory latency: 6.86 ns
+INFO: 1MB memory latency: 8.77 ns
+INFO: 2MB memory latency: 9.62 ns
+INFO: 4MB memory latency: 10.68 ns
+INFO: 8MB memory latency: 24.1 ns
+INFO: 16MB memory latency: 55.64 ns
+INFO: 32MB memory latency: 65.24 ns
+INFO: 64MB memory latency: 72.59 ns
+INFO: 128MB memory latency: 79.88 ns
+INFO: 256MB memory latency: 84.29 ns
+INFO: Exiting RAM benchmark suite
+INFO: Completed RAM benchmarks
+INFO: Gathering drive info
+INFO: Starting drive benchmark on C:\\
+INFO: Running sequentialRead test ...
+INFO: Running sequentialWrite test ...
+INFO: Running sequentialMixed test ...
+INFO: Running 4kRead test ...
+INFO: Running 4kWrite test ...
+INFO: Fast 4K write detected
+INFO: Running 4kMixed test ...
+INFO: Running 4k64thrRead test ...
+INFO: Running 4k64thrWrite test ...
+INFO: Running 4k64thrMixed test ...
+INFO: Completed drive benchmark on C:\\
+INFO: Checking GPU configuration
+INFO: Found 1 graphics card(s) and 1 active display(s)
+INFO: Starting GPU Benchmarks
+WARN: skipping Microsoft Basic Display Adapter - unable to locate attached display
+INFO: Completed GPU benchmarks
+INFO: Completed all benchmarks in 57 s
+INFO: Shutting down benchmark engine
+INFO: Results sent sucessfully
+INFO: Your report is available online at:
+INFO: http://www.userbenchmark.com/UserRun/8327831
+INFO: Opening report in default browser
+Completed
