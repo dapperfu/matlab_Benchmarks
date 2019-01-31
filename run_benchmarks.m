@@ -30,7 +30,11 @@ for idx = 1:length(benchmarks)
     % Get just the benchmark name.
     [~, bnch, ~] = fileparts(benchmark.name);
     % Run it.
-    feval(bnch);
+    try
+        feval(bnch);
+    catch
+        fprintf('Failed: %s\n')
+    end
 end
 % Come back here.
 cd(cwd);
