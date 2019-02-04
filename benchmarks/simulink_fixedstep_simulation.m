@@ -10,7 +10,7 @@ function  simulink_fixedstep_simulation()
 %% Input processing
 simulation_model = getenv('SIMULATION_MODEL');
 if isempty(simulation_model)
-    simulation_model = 'sldemo_bounce_two_integrators';
+    simulation_model = 'sldemo_bounce';
 end
 
 %% Setup
