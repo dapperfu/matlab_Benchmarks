@@ -1,0 +1,115 @@
+INFO: Current software signature: [2bce57cfc70379803dcba7181cc4d054]
+INFO: Checking for updates on UserBenchmark.com
+INFO: Version check passed
+INFO: Benchmark engine running
+INFO: Checking OS support
+INFO: Checking CPU power status
+INFO: Gathering Device Info
+INFO: Starting CPU tests
+INFO: Launching CPU benchmark suite
+INFO: Running 1 core CPU benchmark ...
+INFO: 1Core Int total throughput: 136.4
+INFO: 1Core Float total throughput: 149.8
+INFO: 1Core Mixed total throughput: 143.1
+INFO: Running 2 core CPU benchmark ...
+INFO: 2Core Int total throughput: 273.5
+INFO: 2Core Float total throughput: 299.1
+INFO: 2Core Mixed total throughput: 284.8
+INFO: Running 4 core CPU benchmark ...
+INFO: 4Core Int total throughput: 530.1
+INFO: 4Core Float total throughput: 550.7
+INFO: 4Core Mixed total throughput: 562.3
+INFO: Running 8 core CPU benchmark ...
+INFO: 8Core Int total throughput: 762.7
+INFO: 8Core Float total throughput: 854.7
+INFO: 8Core Mixed total throughput: 809.5
+INFO: Running 64 core CPU benchmark ...
+INFO: 64Core Int total throughput: 777.4
+INFO: 64Core Float total throughput: 818.6
+INFO: 64Core Mixed total throughput: 785.9
+INFO: Exiting CPU benchmark suite
+INFO: Completed CPU benchmarks
+INFO: Starting RAM tests
+INFO: Launching RAM benchmark suite
+INFO: Checking RAM configuration
+WARN: Unable to process RAM module 0h
+INFO: Running 1 core RAM benchmark ...
+INFO: 1Core Read total throughput: 20.8
+INFO: 1Core Write total throughput: 42.5
+INFO: 1Core Mixed total throughput: 30.9
+INFO: Running 2 core RAM benchmark ...
+INFO: 2Core Read total throughput: 30.6
+INFO: 2Core Write total throughput: 40
+INFO: 2Core Mixed total throughput: 33.5
+INFO: Running 16 core RAM benchmark ...
+INFO: 16Core Read total throughput: 34.9
+INFO: 16Core Write total throughput: 38.1
+INFO: 16Core Mixed total throughput: 32.7
+INFO: Running system latency tests ...
+INFO: 1KB memory latency: 0.99 ns
+INFO: 2KB memory latency: 0.91 ns
+INFO: 4KB memory latency: 0.91 ns
+INFO: 8KB memory latency: 0.92 ns
+INFO: 16KB memory latency: 0.91 ns
+INFO: 32KB memory latency: 0.93 ns
+INFO: 64KB memory latency: 1.74 ns
+INFO: 128KB memory latency: 2.35 ns
+INFO: 256KB memory latency: 3.07 ns
+INFO: 512KB memory latency: 7.06 ns
+INFO: 1MB memory latency: 9.1 ns
+INFO: 2MB memory latency: 10.82 ns
+INFO: 4MB memory latency: 16.18 ns
+INFO: 8MB memory latency: 36.01 ns
+INFO: 16MB memory latency: 54.67 ns
+INFO: 32MB memory latency: 61.01 ns
+INFO: 64MB memory latency: 63.09 ns
+INFO: 128MB memory latency: 63.81 ns
+INFO: 256MB memory latency: 65.26 ns
+INFO: Exiting RAM benchmark suite
+INFO: Completed RAM benchmarks
+INFO: Gathering drive info
+INFO: Launching Core drive benchmarks on C:
+INFO: C: sequentialWrite 1499.6 MB/s
+INFO: C: sequentialRead 1736.9 MB/s
+INFO: C: sequentialMixed 593.4 MB/s
+INFO: C: 4kRead 51.7 MB/s
+INFO: C: 4kWrite 209.5 MB/s
+INFO: C: 4kMixed 74.5 MB/s
+INFO: C: 4k64thrRead 1306.4 MB/s
+INFO: C: 4k64thrWrite 1222.5 MB/s
+INFO: C: 4k64thrMixed 1074.3 MB/s
+INFO: Launching Core drive benchmarks on D:
+ERROR: D: Drive bench execution failed
+ERROR: WARNING: Could not create intermediate directory: The volume does not contain a recognized file system.Please make sure that all required file system drivers are loaded and that the volume is not corrupted. (1005)
+ERROR: Could not create the file: The volume does not contain a recognized file system.Please make sure that all required file system drivers are loaded and that the volume is not corrupted. (1005)
+INFO: Launching sustained write bench on C:
+INFO: Checking GPU configuration
+INFO: Launching SustainedWrite drive benchmarks on C:
+INFO: Found 1 graphics card(s) and 1 active display(s)
+INFO: Starting GPU Benchmarks
+INFO: Launching NGPU detection
+INFO: NGPU Name: GeForce GTX 960
+INFO: NGPU Driver: 436.15
+INFO: NGPU Bios: 84.06.14.00.ff
+INFO: NGPU Total RAM MB: 4096
+INFO: NGPU Max C MHz: 1443
+INFO: NGPU Max M MHz: 1752
+INFO: Launching AGPU detection
+INFO: Completed GPUStats successfully
+INFO: Bench NVIDIA GeForce GTX 960 @(HDMI) on display(1) = main
+ERROR: C: Drive bench execution failed
+ERROR: Setting file: There is not enough space on the disk. (112), 87.9GB required
+INFO: GPU score on Plane = 139.7 FPS
+INFO: GPU score on Cube = 117.2 FPS
+INFO: GPU score on Stones = 128 FPS
+INFO: GPU score on Swarm = 83 FPS
+INFO: GPU score on Galaxy = 122.7 FPS
+INFO: GPU score on Sphere = 83.1 FPS
+INFO: Completed GPU benchmarks
+INFO: Completed all benchmarks in 77 s
+INFO: Shutting down benchmark engine
+INFO: Results sent sucessfully
+INFO: Your report is available online at:
+INFO: https://www.userbenchmark.com/UserRun/24230448
+INFO: Opening report in default browser
+Completed

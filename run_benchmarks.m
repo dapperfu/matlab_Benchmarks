@@ -31,9 +31,10 @@ for idx = 1:length(benchmarks)
     [~, bnch, ~] = fileparts(benchmark.name);
     % Run it.
     try
+        fprintf('Running: %s\n', bnch)
         feval(bnch);
     catch
-        fprintf('Failed: %s\n')
+        fprintf('Failed: %s\n', bnch)
     end
 end
 % Come back here.
