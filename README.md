@@ -2,13 +2,13 @@
 
 Real world use case benchmarks for a very specific niche of industry.
 
-> "Measurement is the first step that leads to control and eventually to improvement. If you can’t measure something, you can’t understand it. If you can’t understand it, you can’t control it. If you can’t control it, you can’t improve it." - H. James Harrington
+> "Measurement is the first step that leads to control and eventually to improvement. If you canâ€™t measure something, you canâ€™t understand it. If you canâ€™t understand it, you canâ€™t control it. If you canâ€™t control it, you canâ€™t improve it." - H. James Harrington
 
 ## Motivation
 
-After doing some [``profiling``](https://www.mathworks.com/help/matlab/ref/profile.html) of my daily workflow I discovered that my [Laptop](http://store.hp.com/us/en/pdp/hp-zbook-studio-g3-mobile-workstation-(energy-star\)) was faster than my [Desktop](http://store.hp.com/us/en/mdp/business-solutions/z840-workstation), despite a large disparity in specifications.
+After doing some [``profiling``](https://www.mathworks.com/help/matlab/ref/profile.html) of my daily workflow I discovered that my Laptop was faster than my [Desktop](http://store.hp.com/us/en/mdp/business-solutions/z840-workstation), despite a large disparity in specifications.
 
-Specifications and benchmarks don't give an indication of how a system will affect my workflow.
+Specifications and benchmarks don't give an indication of how a system will affect my workflow (Simulink Embedded Coder)
 
 # Contributing
 
